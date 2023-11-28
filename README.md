@@ -38,7 +38,7 @@ use this code in a web browser, you can simply include it in your HTML file with
     console.log(jsonObject);
   </script>
 </body>
-</html>html```
+</html>
 
 <h1>Usage</h1>
 
