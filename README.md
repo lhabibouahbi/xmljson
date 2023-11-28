@@ -17,7 +17,19 @@ However, it's important to note that the code might benefit from additional comm
 <h1>Installation</h1>
 use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
 
-<script src="xmljson.js"></script>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your HTML Page</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is a simple HTML example.</p>
+</body>
+</html>
 
 
 
