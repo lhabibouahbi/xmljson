@@ -14,7 +14,7 @@
 
 However, it's important to note that the code might benefit from additional comments to enhance readability and understanding, especially for developers who are not familiar with the implementation details. Additionally, a formatted and multiline version of the code is often preferred for better code maintainability and collaboration.
 
-<h1>Installation</h1>
+## Installation
 use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
 
 ```html
@@ -40,6 +40,5 @@ use this code in a web browser, you can simply include it in your HTML file with
 </body>
 </html>
 
-<h1>Usage</h1>
-
+## Usage
 
