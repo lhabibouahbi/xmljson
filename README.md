@@ -25,7 +25,7 @@ use this code in a web browser, you can simply include it in your HTML file with
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your HTML Page</title>
   <!-- Include the external script -->
-  <script src="xml2json.js"></script>
+  <script src="xmljson.js"></script>
 </head>
 <body>
   <!-- Your HTML content goes here -->
@@ -34,11 +34,16 @@ use this code in a web browser, you can simply include it in your HTML file with
   <script>
     // Assuming xml2json.js defines a function called xml2json
     const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
-    const jsonObject = xml2json(xmlString);
+    const jsonObject = xmljson(xmlString);
     console.log(jsonObject);
   </script>
 </body>
 </html>
 
+<h1>Usage</h1>
 
+```html
+    const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
+    const jsonObject = xml2json(xmlString);
+    console.log(jsonObject);
 
