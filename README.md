@@ -40,5 +40,5 @@ use this code in a web browser, you can simply include it in your HTML file with
 </body>
 </html>
 
-## Usage
-
+## Installation
+use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
