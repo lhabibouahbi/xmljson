@@ -34,7 +34,7 @@ use this code in a web browser, you can simply include it in your HTML file with
   <script>
     // Assuming xmljson.js defines a function called xml2json
     const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
-    const jsonObject = xmljson(xmlString);
+    const jsonObject = xmljsn(xmlString);
     console.log(jsonObject);
   </script>
 </body>
@@ -45,7 +45,7 @@ use this code in a web browser, you can simply include it in your HTML file with
   <script>
     // Assuming xmljson.js defines a function called xmljson
     const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
-    const jsonObject = xmljson(xmlString);
+    const jsonObject = xmljsn(xmlString);
     console.log(jsonObject);
   </script>
 ```
