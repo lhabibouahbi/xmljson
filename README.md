@@ -15,6 +15,8 @@
 However, it's important to note that the code might benefit from additional comments to enhance readability and understanding, especially for developers who are not familiar with the implementation details. Additionally, a formatted and multiline version of the code is often preferred for better code maintainability and collaboration.
 
 <h1>Installation</h1>
+use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,4 +39,5 @@ However, it's important to note that the code might benefit from additional comm
   </script>
 </body>
 </html>
+```
 
