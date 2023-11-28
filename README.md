@@ -17,27 +17,7 @@ However, it's important to note that the code might benefit from additional comm
 <h1>Installation</h1>
 use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
 
+<script src="xmljson.js"></script>
 
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your HTML Page</title>
-  <!-- Include the external script -->
-  <script src="xmljson.js"></script>
-</head>
-<body>
-  <!-- Your HTML content goes here -->
 
-  <!-- Example usage of the xmljson functionality -->
-  <script>
-    // Assuming xml2json.js defines a function called xml2json
-    const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
-    const jsonObject = xml2json(xmlString);
-    console.log(jsonObject);
-  </script>
-</body>
-</html>
-</svg>
 
