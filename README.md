@@ -1,4 +1,4 @@
-<h1>Overview</h1>
+## Overview
 
 <h3>The provided JavaScript code defines a function, xmljsn, which converts XML strings into a structured JavaScript object, essentially acting as an XML to JSON converter. The function utilizes the DOMParser to parse the XML string into an XML document, and then recursively processes the document's nodes to build a corresponding JSON object.</h3>
 
@@ -40,5 +40,5 @@ use this code in a web browser, you can simply include it in your HTML file with
 </body>
 </html>.
 
-## Installation
+## Usage
 use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
