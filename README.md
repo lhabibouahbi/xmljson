@@ -16,7 +16,9 @@ However, it's important to note that the code might benefit from additional comm
 
 <h1>Installation</h1>
 use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
-```
+
+
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
 
 <!DOCTYPE html>
 <html lang="en">
@@ -39,5 +41,5 @@ use this code in a web browser, you can simply include it in your HTML file with
   </script>
 </body>
 </html>
-```
+</svg>
 
