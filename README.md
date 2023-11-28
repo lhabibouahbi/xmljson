@@ -19,8 +19,6 @@ use this code in a web browser, you can simply include it in your HTML file with
 
 
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
