@@ -42,24 +42,12 @@ use this code in a web browser, you can simply include it in your HTML file with
 ```
 ## usage
 ```
-{
-   "Tests":{
-      "Test":[
-         {
-            "Name":"The First Test",
-	    "SomeMoreText":"More text",
-            "SomeText":"Some simple text",
-            "Description":{
-               "Format":"FooFormat",
-               "value":"Just a dummy\n\nXml file."
-            }
-         },
-         {
-            "Name":"Second"
-         }
-      ]
-   }
-}
+  <script>
+    // Assuming xml2json.js defines a function called xml2json
+    const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
+    const jsonObject = xml2json(xmlString);
+    console.log(jsonObject);
+  </script>
 ```
 
 
