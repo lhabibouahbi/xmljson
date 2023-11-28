@@ -32,7 +32,7 @@ use this code in a web browser, you can simply include it in your HTML file with
 
   <!-- Example usage of the xml2json functionality -->
   <script>
-    // Assuming xml2json.js defines a function called xml2json
+    // Assuming xmljson.js defines a function called xml2json
     const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
     const jsonObject = xmljson(xmlString);
     console.log(jsonObject);
@@ -43,13 +43,161 @@ use this code in a web browser, you can simply include it in your HTML file with
 ## usage
 ```
   <script>
-    // Assuming xml2json.js defines a function called xml2json
+    // Assuming xmljson.js defines a function called xmljson
     const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
-    const jsonObject = xml2json(xmlString);
+    const jsonObject = xmljson(xmlString);
     console.log(jsonObject);
   </script>
 ```
+## Example XML
 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book id="001" category="Fiction">
+    <title lang="en">The Great Gatsby</title>
+    <author>
+      <name>F. Scott Fitzgerald</name>
+      <nationality>American</nationality>
+    </author>
+    <published year="1925" month="April" />
+    <price currency="USD">15.99</price>
+    <availability>
+      <inStock>true</inStock>
+      <quantity>50</quantity>
+    </availability>
+  </book>
+  <book id="002" category="Non-Fiction">
+    <title lang="en">Sapiens: A Brief History of Humankind</title>
+    <author>
+      <name>Yuval Noah Harari</name>
+      <nationality>Israeli</nationality>
+    </author>
+    <published year="2014" />
+    <price currency="USD">21.99</price>
+    <availability>
+      <inStock>false</inStock>
+      <quantity>0</quantity>
+    </availability>
+  </book>
+  <book id="003" category="Science Fiction">
+    <title lang="en">Dune</title>
+    <author>
+      <name>Frank Herbert</name>
+      <nationality>American</nationality>
+    </author>
+    <published year="1965" month="August" />
+    <price currency="USD">18.99</price>
+    <availability>
+      <inStock>true</inStock>
+      <quantity>30</quantity>
+    </availability>
+  </book>
+</library>
 
+```
+## Example JSON
 
+```
+{
+  "library": {
+    "book": [
+      {
+        "_id": "001",
+        "_category": "Fiction",
+        "title": {
+          "_lang": "en",
+          "thetext": "The Great Gatsby"
+        },
+        "author": {
+          "name": {
+            "thetext": "F. Scott Fitzgerald"
+          },
+          "nationality": {
+            "thetext": "American"
+          }
+        },
+        "published": {
+          "_year": "1925",
+          "_month": "April"
+        },
+        "price": {
+          "_currency": "USD",
+          "thetext": "15.99"
+        },
+        "availability": {
+          "inStock": {
+            "thetext": "true"
+          },
+          "quantity": {
+            "thetext": "50"
+          }
+        }
+      },
+      {
+        "_id": "002",
+        "_category": "Non-Fiction",
+        "title": {
+          "_lang": "en",
+          "thetext": "Sapiens: A Brief History of Humankind"
+        },
+        "author": {
+          "name": {
+            "thetext": "Yuval Noah Harari"
+          },
+          "nationality": {
+            "thetext": "Israeli"
+          }
+        },
+        "published": {
+          "_year": "2014"
+        },
+        "price": {
+          "_currency": "USD",
+          "thetext": "21.99"
+        },
+        "availability": {
+          "inStock": {
+            "thetext": "false"
+          },
+          "quantity": {
+            "thetext": "0"
+          }
+        }
+      },
+      {
+        "_id": "003",
+        "_category": "Science Fiction",
+        "title": {
+          "_lang": "en",
+          "thetext": "Dune"
+        },
+        "author": {
+          "name": {
+            "thetext": "Frank Herbert"
+          },
+          "nationality": {
+            "thetext": "American"
+          }
+        },
+        "published": {
+          "_year": "1965",
+          "_month": "August"
+        },
+        "price": {
+          "_currency": "USD",
+          "thetext": "18.99"
+        },
+        "availability": {
+          "inStock": {
+            "thetext": "true"
+          },
+          "quantity": {
+            "thetext": "30"
+          }
+        }
+      }
+    ]
+  }
+}
 
