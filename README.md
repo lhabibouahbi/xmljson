@@ -17,6 +17,14 @@ However, it's important to note that the code might benefit from additional comm
 ## Installation
 use this code in a web browser, you can simply include it in your HTML file within a <script> tag. For example:
 
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
+
+
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
