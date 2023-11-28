@@ -1,3 +1,5 @@
+<h1>Overview</h1>
+
 <h3>The provided JavaScript code defines a function, xmljsn, which converts XML strings into a structured JavaScript object, essentially acting as an XML to JSON converter. The function utilizes the DOMParser to parse the XML string into an XML document, and then recursively processes the document's nodes to build a corresponding JSON object.</h3>
 
 <h5>Here's a breakdown of the key functionalities:</h5>
@@ -11,3 +13,28 @@
 </ul>
 
 However, it's important to note that the code might benefit from additional comments to enhance readability and understanding, especially for developers who are not familiar with the implementation details. Additionally, a formatted and multiline version of the code is often preferred for better code maintainability and collaboration.
+
+<h1>Installation</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your HTML Page</title>
+  <!-- Include the external script -->
+  <script src="xmljson.js"></script>
+</head>
+<body>
+  <!-- Your HTML content goes here -->
+
+  <!-- Example usage of the xmljson functionality -->
+  <script>
+    // Assuming xml2json.js defines a function called xml2json
+    const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
+    const jsonObject = xml2json(xmlString);
+    console.log(jsonObject);
+  </script>
+</body>
+</html>
+
