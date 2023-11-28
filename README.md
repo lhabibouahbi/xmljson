@@ -38,12 +38,8 @@ use this code in a web browser, you can simply include it in your HTML file with
     console.log(jsonObject);
   </script>
 </body>
-</html>```
+</html>html```
 
 <h1>Usage</h1>
 
-```html
-    const xmlString = '<root><item id="1">Hello</item><item id="2">World</item></root>';
-    const jsonObject = xml2json(xmlString);
-    console.log(jsonObject);
 
