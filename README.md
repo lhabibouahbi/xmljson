@@ -1,4 +1,4 @@
-The provided JavaScript code defines a function, xmljsn, which converts XML strings into a structured JavaScript object, essentially acting as an XML to JSON converter. The function utilizes the DOMParser to parse the XML string into an XML document, and then recursively processes the document's nodes to build a corresponding JSON object.
+**The provided JavaScript code defines a function, xmljsn, which converts XML strings into a structured JavaScript object, essentially acting as an XML to JSON converter. The function utilizes the DOMParser to parse the XML string into an XML document, and then recursively processes the document's nodes to build a corresponding JSON object.**
 
 Here's a breakdown of the key functionalities:
 
