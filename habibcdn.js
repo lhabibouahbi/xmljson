@@ -1,1 +1,1 @@
-alert("error 404")
+alert("404")
