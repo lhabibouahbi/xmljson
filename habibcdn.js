@@ -1,4 +1,3 @@
-
 var fdiv = document.createElement('div')
 var fdivname = document.createElement('div')
 var fdivnamex = document.createElement('div')
